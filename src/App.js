@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import logo from './logo.svg';
+import logo from "./images/bwitton.png";
+import "./App.css";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Fuck off, World.
+          Fuck off, World. No, really.
         </a>
       </header>
     </div>

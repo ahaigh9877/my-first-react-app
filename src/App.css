@@ -4,17 +4,32 @@
 
 .App-logo {
   height: 40vmin;
+  animation-name: turnhead;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes turnhead {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./images/cognrats.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
